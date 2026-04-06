@@ -4,7 +4,7 @@
 
 ## Viraj Bhamre
 
-<sub><strong>Backend</strong> · <strong>Full-stack</strong> · <strong>B.Tech AIML</strong> · Bhopal, India</sub>
+<sub><strong>Software Engineer</strong> · <strong>Backend</strong> · <strong>Full-stack</strong> · <strong>B.Tech AIML</strong> · Bhopal, India</sub>
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=15&duration=5500&pause=4500&color=8B949E&center=true&vCenter=true&width=520&lines=Clean+APIs%2C+solid+architecture%2C+maintainable+code.;Spring+Boot+%E2%80%A2+MERN+%E2%80%A2+systems+that+scale+with+the+team." alt="" />
 
@@ -14,16 +14,14 @@
 
 ### About
 
-I'm a **B.Tech AIML** student at **LNCT Group of Colleges** (*2022 – 2026*), focused on **backend and full-stack engineering**. I care about **SOLID**, **low-level design**, and **clear boundaries** so code stays **readable, testable, and scalable**.
+I'm a **B.Tech (AI & ML)** student at **LNCT Group of Colleges**, Bhopal — **expected graduation October 2026** — focused on **backend and full-stack engineering**. I care about **SOLID**, **low-level design**, and **clear boundaries** so code stays **readable, testable, and scalable**.
 
-- **Backend & APIs:** **Spring Boot** — REST, authentication, **RBAC**, databases, service layers. **MERN** for end-to-end products and clean frontend ↔ API integration.
-- **DSA:** **Java** on **LeetCode** — arrays, trees, graphs, recursion, greedy, sliding window, hash maps; consistency over shortcuts.
+- **Backend & APIs:** **Spring Boot** and **Node.js** — REST API design, **Swagger/OpenAPI**, authentication (**JWT**, **OAuth 2.0**), **RBAC**, schema design, query optimization, and indexing (**MongoDB**, **MySQL**, **PostgreSQL**). **MERN** for end-to-end products.
+- **Problem solving:** **Java** and classic **DSA** patterns — strong habits for technical depth and interviews.
 - **AI / ML:** **Customer churn prediction**, **crop disease detection** — **TensorFlow**, **Keras**, **Pandas**, **scikit-learn** when products need data-driven or ML pieces.
-- **Workflow:** **Git**, **GitHub Copilot**, **Cursor** — faster iteration without sacrificing structure.
+- **Workflow:** **Docker**, **Postman**, **Git**, plus **GitHub Copilot** and **Cursor** for fast, disciplined iteration.
 
-Previously shipped production-style work at **Xelron AI** and **We Win Limited** (backend, LLD, **Express.js**, **Python**, databases).
-
-*Open to **Web Developer** and **Machine Learning Engineer** roles. If you value system design and maintainability over buzzwords, let’s talk.*
+*Open to **Software Development Engineer**, **Backend Engineer**, **Full Stack Developer**, and **Machine Learning** roles.*
 
 ---
 
@@ -33,7 +31,6 @@ Previously shipped production-style work at **Xelron AI** and **We Win Limited**
   <a href="https://www.linkedin.com/in/virajbhamre"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://www.virajbhamre.info"><img src="https://img.shields.io/badge/Portfolio-24292F?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
   <a href="https://github.com/VirajBhamre"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://leetcode.com/"><img src="https://img.shields.io/badge/LeetCode-1A1A1A?style=flat-square&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
 </p>
 
 ---
@@ -47,6 +44,7 @@ Previously shipped production-style work at **Xelron AI** and **We Win Limited**
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logoColor=white" alt="SQL"/>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
@@ -61,7 +59,10 @@ Previously shipped production-style work at **Xelron AI** and **We Win Limited**
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/REST-005571?style=flat-square&logo=openapiinitiative&logoColor=white" alt="REST"/>
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger"/>
+  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+  <img src="https://img.shields.io/badge/OAuth_2.0-3C3C3C?style=flat-square&logoColor=white" alt="OAuth 2.0"/>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
@@ -86,9 +87,13 @@ Previously shipped production-style work at **Xelron AI** and **We Win Limited**
 
 ### Featured work
 
-**[StartBoost](https://www.virajbhamre.info)** — SaaS for early-stage teams: role-based tasks, check-ins, workload radar, delay reasons, summaries, feedback. **MERN**, **Razorpay**, workload-fair tracking.
+**[Flynt](https://www.virajbhamre.info)** — Startup command center. **Spring Boot**, **MongoDB**, **React**, **CQRS**, **Docker**. CQRS-style backend with **15+ REST** endpoints and **Swagger** documentation; MongoDB schema with tuned **indexes**; **JWT** authentication and **RBAC** across **4 roles**; **10+ third-party integrations** (Slack, Notion, GitHub, Stripe, Razorpay) via REST with normalized payloads.
 
-**[StayWise](https://www.virajbhamre.info)** — Hostel platform (**Node.js**, **Express**, **MongoDB**): admin / warden / hosteller flows, room patterns, JWT **RBAC**, payments and receipts.
+**[StayWise](https://www.virajbhamre.info)** — Hostel management. **MERN**, REST. **20+** API endpoints; MongoDB models for users, rooms, and bookings with validation; **JWT** + **RBAC** (SuperAdmin, Warden, Hosteller); **room allocation** with conflict detection; bookings with **transaction** support.
+
+**[LNCT Venue Booking System](https://www.virajbhamre.info)** — **Node.js**, **Express**, **MongoDB**, **React**. **12+** REST endpoints for **20+** venues, booking flows, and payments; indexed MongoDB for venues, bookings, and payments; **Razorpay** with **webhook** handling; **availability** checks with date-range rules and **admin** dashboard APIs.
+
+**[StartBoost](https://www.virajbhamre.info)** — Lightweight SaaS for early-stage teams: role-based tasks, check-ins, workload radar, delay reasons, summaries, and feedback. **MERN**, **Razorpay**, workload-fair tracking.
 
 ---
 
@@ -96,9 +101,9 @@ Previously shipped production-style work at **Xelron AI** and **We Win Limited**
 
 | Role | Organization | Period |
 |:---|:---|:---|
-| SDE Intern | Xelron AI · Remote | Dec 2025 – Mar 2026 |
-| SDE‑1 | We Win Limited · Bhopal | Nov 2025 – Dec 2025 |
-| SDE Intern | We Win Limited · On-site | Apr 2025 – Nov 2025 |
+| Software Development Engineer Intern | Xelron AI · Remote | Jan 2026 – Present |
+| Software Development Engineer 1 | We Win Ltd. · Bhopal | Nov 2025 – Jan 2026 |
+| Software Development Engineer Intern | We Win Ltd. · On-site | Apr 2025 – Nov 2025 |
 
 ---
 
