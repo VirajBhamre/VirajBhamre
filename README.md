@@ -41,8 +41,6 @@ I'm a **B.Tech (AI & ML)** student at **LNCT Group of Colleges**, Bhopal — **e
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logoColor=white" alt="SQL"/>
 </p>
@@ -58,18 +56,12 @@ I'm a **B.Tech (AI & ML)** student at **LNCT Group of Colleges**, Bhopal — **e
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
   <img src="https://img.shields.io/badge/REST-005571?style=flat-square&logo=openapiinitiative&logoColor=white" alt="REST"/>
   <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger"/>
   <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
   <img src="https://img.shields.io/badge/OAuth_2.0-3C3C3C?style=flat-square&logoColor=white" alt="OAuth 2.0"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
@@ -81,13 +73,31 @@ I'm a **B.Tech (AI & ML)** student at **LNCT Group of Colleges**, Bhopal — **e
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
 </p>
 
-<sub>Also exploring: AWS · NGINX · Kubernetes · CI/CD with GitHub Actions</sub>
+<sub>Also exploring: AWS · Kubernetes · CI/CD</sub>
+
+---
+
+### Skills
+
+- **Languages**: Java, JavaScript, Python, SQL
+- **Backend**: Spring Boot, Node.js, Express.js, REST APIs, Swagger/OpenAPI
+- **Databases**: MongoDB, MySQL, PostgreSQL · schema design · indexing · query optimization
+- **Distributed systems**: Redis, Redis Lua, NGINX
+- **Messaging**: RabbitMQ
+- **Auth & security**: JWT, OAuth 2.0, RBAC, Spring Security
+- **Testing & ops**: k6, Docker, Git, Postman, Linux
+- **Frontend**: React.js, Next.js
+- **Soft skills**: problem solving, communication, collaboration, time management
 
 ---
 
 ### Featured work
 
-**[Flynt](https://www.virajbhamre.info)** — Startup command center. **Spring Boot**, **MongoDB**, **React**, **CQRS**, **Docker**. CQRS-style backend with **15+ REST** endpoints and **Swagger** documentation; MongoDB schema with tuned **indexes**; **JWT** authentication and **RBAC** across **4 roles**; **10+ third-party integrations** (Slack, Notion, GitHub, Stripe, Razorpay) via REST with normalized payloads.
+**[Distributed Rate Limiter System](https://github.com/VirajBhamre/distributed-rate-limiter)** — Horizontally scalable API gateway. **Spring Boot (Java 17)**, **Redis Lua**, **PostgreSQL**, **NGINX**, **Docker**, **JWT**, **k6**. Five Spring Boot replicas behind NGINX `least_conn`; global limits via Redis Lua (token bucket + sliding window). Stable enforcement under load (100k–150k requests/run, ~1,500 concurrent users, ~800–1,100 RPS) with ~99%+ correct 429s and near-zero 5xx.
+
+**[Distributed Custom Load Balancer](https://github.com/VirajBhamre/distributed-custom-load-balancer)** — Spring Boot reverse proxy. **Spring Boot (Java 17)**, **Redis**, **Docker**, **Apache Bench**. Reverse-proxy load balancer (2 instances, 5 backends) with Redis-backed health/coordination and least-connections routing across LBs; sustained ~200k requests and ~1,600–1,700 RPS peak, with automatic recovery via circuit breakers under failure injection.
+
+**[Flynt](https://github.com/VirajBhamre/flynt)** — Startup command center platform. **Spring Boot**, **MongoDB**, **React**, **CQRS**, **Docker**, **Swagger**, **JWT**, **RBAC**. Backend with CQRS and **15+ REST** endpoints; MongoDB schema + indexes; JWT auth with **4 roles**; integrations with Slack, Notion, Jira, ClickUp, GitHub, Google Meet via normalization.
 
 **[StayWise](https://www.virajbhamre.info)** — Hostel management. **MERN**, REST. **20+** API endpoints; MongoDB models for users, rooms, and bookings with validation; **JWT** + **RBAC** (SuperAdmin, Warden, Hosteller); **room allocation** with conflict detection; bookings with **transaction** support.
 
