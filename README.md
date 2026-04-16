@@ -14,7 +14,7 @@
 
 ### About
 
-I'm a **B.Tech (AI & ML)** student at **LNCT Group of Colleges**, Bhopal — **expected graduation October 2026** — focused on **backend and full-stack engineering**. I care about **SOLID**, **low-level design**, and **clear boundaries** so code stays **readable, testable, and scalable**.
+Backend-focused **Software Engineer** building **distributed systems** and clean, reliable **REST APIs**. I care about **system design**, **SOLID**, and **clear boundaries** so services stay **readable, testable, and scalable**.
 
 - **Backend & APIs:** **Spring Boot** and **Node.js** — REST API design, **Swagger/OpenAPI**, authentication (**JWT**, **OAuth 2.0**), **RBAC**, schema design, query optimization, and indexing (**MongoDB**, **MySQL**, **PostgreSQL**). **MERN** for end-to-end products.
 - **Problem solving:** **Java** and classic **DSA** patterns — strong habits for technical depth and interviews.
