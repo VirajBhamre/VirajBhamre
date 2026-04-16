@@ -85,7 +85,7 @@ Backend-focused **Software Engineer** building **distributed systems** and clean
 - **Distributed systems**: Redis, Redis Lua, NGINX
 - **Messaging**: RabbitMQ
 - **Auth & security**: JWT, OAuth 2.0, RBAC, Spring Security
-- **Testing & ops**: k6, Docker, Git, Postman, Linux
+- **Testing & ops**: k6, Apache Bench, Docker, Git, Postman, Linux
 - **Frontend**: React.js, Next.js
 - **Soft skills**: problem solving, communication, collaboration, time management
 
