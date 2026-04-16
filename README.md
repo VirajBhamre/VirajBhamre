@@ -57,14 +57,18 @@ Backend-focused **Software Engineer** building **distributed systems** and clean
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ"/>
   <img src="https://img.shields.io/badge/REST-005571?style=flat-square&logo=openapiinitiative&logoColor=white" alt="REST"/>
   <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger"/>
   <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
   <img src="https://img.shields.io/badge/OAuth_2.0-3C3C3C?style=flat-square&logoColor=white" alt="OAuth 2.0"/>
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security"/>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" alt="k6"/>
+  <img src="https://img.shields.io/badge/Apache_Bench-CA2131?style=flat-square&logo=apache&logoColor=white" alt="Apache Bench"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
@@ -96,6 +100,8 @@ Backend-focused **Software Engineer** building **distributed systems** and clean
 **[Distributed Rate Limiter System](https://github.com/VirajBhamre/distributed-rate-limiter)** — Horizontally scalable API gateway. **Spring Boot (Java 17)**, **Redis Lua**, **PostgreSQL**, **NGINX**, **Docker**, **JWT**, **k6**. Five Spring Boot replicas behind NGINX `least_conn`; global limits via Redis Lua (token bucket + sliding window). Stable enforcement under load (100k–150k requests/run, ~1,500 concurrent users, ~800–1,100 RPS) with ~99%+ correct 429s and near-zero 5xx.
 
 **[Distributed Custom Load Balancer](https://github.com/VirajBhamre/distributed-custom-load-balancer)** — Spring Boot reverse proxy. **Spring Boot (Java 17)**, **Redis**, **Docker**, **Apache Bench**. Reverse-proxy load balancer (2 instances, 5 backends) with Redis-backed health/coordination and least-connections routing across LBs; sustained ~200k requests and ~1,600–1,700 RPS peak, with automatic recovery via circuit breakers under failure injection.
+
+**[Reliable Notification System](https://github.com/VirajBhamre/reliable-notification-system)** — Distributed async notifications platform. **Spring Boot**, **RabbitMQ**, **PostgreSQL**, **NGINX**, **Docker**, **k6**, **Prometheus/Grafana**. HTTP API accepts Email/SMS requests and enqueues work; batch workers process messages asynchronously with manual ACKs, TTL+DLQ retries, idempotent DB upserts, and controlled concurrency. Designed for reliability under load with observability and realistic failure simulation.
 
 **[Flynt](https://github.com/VirajBhamre/flynt)** — Startup command center platform. **Spring Boot**, **MongoDB**, **React**, **CQRS**, **Docker**, **Swagger**, **JWT**, **RBAC**. Backend with CQRS and **15+ REST** endpoints; MongoDB schema + indexes; JWT auth with **4 roles**; integrations with Slack, Notion, Jira, ClickUp, GitHub, Google Meet via normalization.
 
